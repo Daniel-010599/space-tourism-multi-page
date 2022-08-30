@@ -1,6 +1,6 @@
 Challenge Frontend Mentor - Space tourism multi-page website
 
-Developed with React Js - flexbox - CSS grid .
+Developed with React Js - flexbox - CSS grid.
 
 Deploy https://d-to-do-app.netlify.app/
 
