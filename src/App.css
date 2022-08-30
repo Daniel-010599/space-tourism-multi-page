@@ -1,0 +1,277 @@
+body{
+    padding:0;
+    margin:0;
+}
+*{
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration:none;
+    outline:none;
+}
+ul{
+    list-style:none;
+}
+button{
+    outline:none;
+}
+.choose{
+    color:#fff;
+    font-size:20px;
+    padding:18px 0;
+    font-family:'Oswald', sans-serif;
+    letter-spacing:4px;
+}
+.choose span{
+    color:#43434d;
+    font-weight:bold;
+    margin-right:10px;
+}
+.section-home{
+    background-image:url('./images/background-home-desktop.jpg')
+}
+.section-destination{
+    background-image:url('./images/background-destination-desktop.jpg')
+}
+.section-crew{
+    background-image:url('./images/background-crew-desktop.jpg')
+}
+.section-technology{
+    background-image:url('./images/background-technology-desktop.jpg')
+}
+.App{
+    background-size:cover;
+    min-height:100vh;
+}
+
+@media(max-width:852px){
+    .App{
+        height:auto;
+    }
+    .section-home{
+        background-image:url('./images/background-home-tablet.jpg');
+    }
+    .section-destination{
+        background-image:url('./images/background-destination-tablet.jpg')
+    }
+    .section-crew{
+        background-image:url('./images/background-crew-tablet.jpg')
+    }
+    .section-technology{
+        background-image:url('./images/background-technology-tablet.jpg')
+    }
+
+
+    .App .header{
+        height:auto;
+    }
+    .App .header .header-nav .line-header{
+        display:none;
+    }
+    .App .header .header-nav .nav-desk{
+        width:100%;
+    }
+    .App .header .nav-desk ul li{
+        padding:50px 0;
+        margin:0 15px;
+    }
+    .App .header .nav-desk span{
+        display:none;
+    }
+
+    
+    .App .home{
+        grid-template-columns:1fr;
+        padding-top:58px;
+    }
+    .home .description{
+        text-align:center;
+    }
+    .App .home .description p{
+        margin:auto;
+        text-align:center;
+    }
+    .App .home .explore{
+        justify-content:center;
+        padding:60px 0;
+    }
+
+    
+
+    .App .destination{
+        grid-template-columns:1fr;
+    }
+    .App .destination .image-planet .choose{
+        margin-bottom:40px;
+    }
+    .App .destination .image-planet .img-planet{
+        padding:0;
+        margin:auto;
+    }
+    .App .destination .description-planet{
+        padding:0;
+        padding-bottom:30px;
+        text-align:center;
+        justify-content:center;
+        align-items:center;
+    }
+    .destination .description-planet .distance-time{
+        justify-content:center;
+    }
+    .App .destination .description-planet .change-destination ul li{
+        margin:0 8px;
+    }
+    
+
+    .App .crew{
+        flex-direction:column;
+        height:auto;
+    }
+    .App .crew .description-crew{
+        padding-bottom:20px;
+    }
+    .crew .description-crew .choose{
+        margin-bottom:40px;
+    }
+    .crew .description-crew .content-bio{
+        text-align:center;
+    }
+    .crew .description-crew .bio{
+        margin:15px auto 30px auto;
+        max-width:535px;
+    }
+    .App .crew .image-crew{
+        justify-content:center;
+        flex-direction:initial;
+    }
+
+
+    .App .content-technology .tech-container{
+        padding-left:0px;
+    }
+    .content-technology .tech-container .choose{
+        padding-left:50px;
+        margin-bottom:40px;
+    }
+    .technology{
+        flex-direction:column-reverse;
+        padding-bottom:40px;
+    }    
+    .technology .description-technology{
+        flex-direction:column;
+        padding:0 50px;
+        text-align:center;
+    }
+    .technology .description-technology .description-tech{
+        margin:auto;
+    }
+    .technology .list-technology ul li{
+        display:inline-block;
+    }
+    .tech-container .technology .list-technology ul li button{
+        margin:0 15px;
+    }
+    .technology .img-technology{
+        min-width:100%;
+    }
+    .technology .img-technology img{
+        max-height:350px;
+        object-fit:cover;
+    }
+}
+
+@media(max-width:600px){
+
+    .section-home{
+        background-image:url('./images/background-home-mobile.jpg');
+    }
+    .section-destination{
+        background-image:url('./images/background-destination-mobile.jpg')
+    }
+    .section-crew{
+        background-image:url('./images/background-crew-mobile.jpg')
+    }
+    .section-technology{
+        background-image:url('./images/background-technology-mobile.jpg')
+    }
+
+
+    .App .header{
+        padding:20px 30px;
+    }
+    .App .header .icon-hamburguer{
+        display:block;
+    }
+    .App .header .header-nav{
+        display:none;
+    }
+    .App .header .nav-mobile{
+        display:block;
+    }
+
+
+    .App .home{
+        padding:100px 30px 0 30px;
+    }
+    .App .home .description h2{
+        font-size:85px;
+        margin:20px 0;
+    }
+    .App .home .description p{
+        width:auto;
+        text-align:center;
+    }
+    .App .home .explore .logo-explore{
+        width:210px;
+        height:210px;
+    }
+    
+
+    
+
+    .App .destination{
+        padding:0 30px;
+    }
+    .App .destination .description-planet h2{
+        font-size:65px;
+    }
+    .App .destination .description-planet .distance-time{
+        flex-direction:column;
+    }
+    .destination .description-planet .distance-time .distance{
+        margin:0 0 30px 0;
+    }
+
+
+    .App .crew{
+        padding:0 30px;
+    }
+    .crew .description-crew h2{
+        font-size:35px;
+    }
+
+    
+
+    .App .content-technology{
+        padding:0px;
+    }
+    .content-technology .tech-container .choose{
+        padding-left:30px;
+    }
+    .App .technology h2{
+        font-size:48px;
+    }
+    .technology .description-technology{
+        padding:0 30px;
+        gap:30px;
+    }
+    .App .technology .list-technology ul li button{
+        width:56px;
+        height:56px;
+        margin:0 10px;
+    }
+}
+
+
+

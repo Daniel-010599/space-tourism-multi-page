@@ -1,0 +1,46 @@
+.home{
+    color:#ffffff;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+    max-width:1350px;
+    width:100%;
+    margin:auto;
+    padding:200px 50px 0 50px;
+    box-sizing:border-box;
+}
+.home .description h4{
+    font-size:25px;
+    font-weight:lighter;
+    font-family:'Oswald', sans-serif;
+    letter-spacing:3px;
+}
+.home .description h2{
+    font-size:140px;
+    font-family: 'Bellefair', serif;
+    font-weight:lighter;
+    margin:10px 0;
+}
+.home .description p{
+    text-align:justify;
+    max-width:410px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size:20px;
+}
+.home .explore{
+    font-size:36px;
+    color:#000;
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+    font-family: 'Bellefair', serif;
+}
+.home .explore .logo-explore{
+    background-color:#fff;
+    display:flex;
+    width:240px;
+    height:240px;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+}

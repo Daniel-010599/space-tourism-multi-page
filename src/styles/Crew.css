@@ -1,0 +1,60 @@
+.crew{
+    color:#fff;
+    display:flex;
+    justify-content:space-between;
+    max-width:1350px;
+    width:100%;
+    margin:auto;
+    height:82vh;
+    padding:40px 50px 0 50px;
+    box-sizing:border-box;
+}
+.crew .description-crew{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    padding-bottom:60px;
+}
+.crew h4{
+    font-size:28px;
+    font-weight: lighter;
+    margin-bottom:12px;
+    font-family: 'Bellefair', serif;
+}
+.crew h2{
+    font-size:51px;
+    font-family: 'Bellefair', serif;
+    font-weight:lighter;
+}
+.crew .bio{
+    margin:30px 0px 100px 0;
+    max-width:390px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size:20px;
+}
+.crew ul li{
+    display:inline-block;
+    margin-right:14px;
+}
+.crew ul li button{
+    border:none;
+    height:15px;
+    width:15px;
+    border-radius:50%;
+    background-color:#353740;
+    cursor:pointer;
+}
+.crew ul li .btn-active{
+    background-color:#fff;
+}
+.crew .image-crew{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+}
+.crew .image-crew .container-img-crew{
+    max-width:520px;
+}
+.crew .image-crew img{
+    width:100%;
+}

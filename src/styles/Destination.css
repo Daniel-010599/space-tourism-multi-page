@@ -1,0 +1,73 @@
+.destination{
+    color:#fff;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+    max-width:1350px;
+    margin:auto;
+    padding:40px 50px 0 50px;
+    box-sizing:border-box;
+}
+.destination .image-planet .choose{
+    margin-bottom:70px;
+}
+.destination .image-planet .img-planet{
+    padding-left:70px;
+    max-width:445px;    
+}
+.destination .image-planet img{
+    width:100%;
+}
+.destination .description-planet{
+    display:flex;
+    justify-content:flex-end;
+    padding:0 30px 20px 0;
+    align-items:flex-end;
+}
+.destination .description-planet .change-destination ul li{
+    display:inline-block;
+    margin-right:20px;
+}
+.destination .description-planet .change-destination button{
+    border:none;
+    background-color:transparent;
+    color:#fff;
+    padding:10px 4px;
+    cursor:pointer;
+    font-family:'Oswald', sans-serif;
+    letter-spacing:3px;
+}
+.destination .description-planet .change-destination ul .style-border{
+    border-bottom:2px solid #fff;
+}
+.destination .description-planet h2{
+    font-size:90px;
+    font-family: 'Bellefair', serif;
+    font-weight:lighter;
+    margin:30px 0 20px 0;
+}
+.destination .description-planet .p-description{
+    max-width:390px;
+    line-height:25px;
+    border-bottom:1px solid #fff;   
+    padding-bottom:50px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size:20px;
+}
+.destination .description-planet .distance-time{
+    display:flex;
+    margin-top:25px;
+}
+.destination .description-planet .distance-time p{
+    font-family:'Oswald', sans-serif;
+    letter-spacing:2px;
+    font-size:13px;
+}
+.destination .description-planet .distance-time h6{
+    font-size:26px;
+    font-family: 'Bellefair', serif;
+    font-weight:lighter;
+}
+.destination .description-planet .distance{
+    margin-right:50px;
+}

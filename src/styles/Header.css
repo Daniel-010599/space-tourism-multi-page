@@ -1,0 +1,80 @@
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-left:50px;
+    height:18vh;
+    gap:80px;
+    font-family:'Oswald', sans-serif;
+}
+.header span{
+    font-weight:bold;
+    margin-right:4px;
+}
+.header .logo-header{
+    width:48px;
+    height:48px;
+}
+.header .icon-hamburguer{
+    display:none;
+    cursor:pointer;
+}
+.header .header-nav{
+    display:flex;
+    width:100%;
+    justify-content:space-between;
+}
+.header .header-nav .line-header{
+    display:flex;
+    align-items:center;
+}
+.header .header-nav .line-header label{
+    padding:1px;
+    position:absolute;
+    width:45%;
+    background-color:#fff;
+    z-index:1;
+}
+.header .header-nav .nav-desk{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter:blur(8px);
+    min-width:55%;
+    text-align:center;
+}
+.header .nav-desk ul .active-li-header{ 
+    border-bottom:2px solid #fff;
+}
+.header .nav-desk ul li{
+    display:inline-block;
+    padding:26px 0;
+    margin:0 30px;
+}
+.header .nav-desk ul li a{
+    color:#fff;
+    font-size:14px;
+    letter-spacing:2px;
+}
+.header .nav-mobile{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 50px;
+    box-sizing:border-box;
+    text-align:center;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    display:none;
+}
+.header .nav-mobile .close-nav-mobile{
+    text-align:right;
+}
+.header .nav-mobile .close-nav-mobile svg{
+    cursor:pointer;
+}
+.header .nav-mobile a{
+    color:#ffffff;
+    padding:25px 0;
+    display:block;
+    font-size:20px;
+}
