@@ -12,6 +12,9 @@ Deploy https://d-to-do-app.netlify.app/
 
 ![oushwkvcii8mm954xdlj](https://user-images.githubusercontent.com/66961947/187550365-e5116f6b-d882-4f6e-84e3-0364866012cc.jpg)
 
+Tablet design
+
 ![k2zwhn210d0xpntepgxo](https://user-images.githubusercontent.com/66961947/187550746-34274470-f086-465e-89ec-7f74f6682dd4.jpg)
+Mobile design
 
 ![utfcwjgwmfwu5rfsazoo](https://user-images.githubusercontent.com/66961947/187550749-8d568e5c-ee77-43ba-94ab-b89c07ad7359.jpg)
